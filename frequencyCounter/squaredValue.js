@@ -1,29 +1,27 @@
-/* Write a function, which accepts two arrays. The function should return true if every value in the array has 
-it’s corresponding value squared in the second array. (Frequency should be same and the order doesn’t matter) */
+/* Write a function, which accepts two arrays. The function should return true if every value in the array has it’s corresponding value squared in the second array. (Frequency should be same and the order doesn’t matter) */
+/*
+Input => Two arrays
+[2,3,4], [9,4,16] => true
+[2,3,4], [8,5,12] => false
+*/
 
-const same = (arr1, arr2) => {
-
-    if (arr1.length !== arr2.length) {
-        return false;
+const square = (arr1, arr2) => {
+    if (arr1.length !== arr2.length) return false;
+    const numberObj = {}
+    const squareObj = {}
+    for (let item of arr1) {
+        numberObj[item] = (numberObj[item] || 0) + 1; 
     }
-    const frequencyCounter1 = {};
-    const frequencyCounter2 = {};
-
-    for (let val of arr1) {
-        frequencyCounter1[val] = (frequencyCounter1[val] || 0) + 1;
+    for (let item of arr2) {
+        squareObj[item] = (squareObj[item] || 0) + 1;
     }
-
-    for (let val of arr2) {
-        frequencyCounter2[val] = (frequencyCounter2[val] || 0) + 1;
+    for (let key in numberObj) {
+        if (!(key**2 in squareObj)) return false
+        else if (numberObj[key] !== squareObj[key**2]) return false;
     }
-
-    for (let key in frequencyCounter1) {
-        if (!(key**2 in frequencyCounter2)) {
-            return false;
-        }
-        else if (frequencyCounter1[key] !== frequencyCounter2[key**2]){
-            return false;
-        }
-    }
-    return true;   
+    return true;
 }
+
+console.log(square([2,3,4], [9,4,16])) // true
+console.log(square([2,3,4], [9,5,16])) // false
+console.log(square([2,3,4], [9,4])) // false
