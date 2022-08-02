@@ -1,8 +1,6 @@
 /* Write a function, which accepts two arrays. The function should return true if every value in the array has 
 it’s corresponding value squared in the second array. (Frequency should be same and the order doesn’t matter) */
 
-// Using frequency counter
-
 const same = (arr1, arr2) => {
 
     if (arr1.length !== arr2.length) {
