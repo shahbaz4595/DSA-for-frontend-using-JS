@@ -7,6 +7,11 @@
     * areThereDuplicates(1, 2, 3) // false
     * areThereDuplicates(1, 2, 2) // true 
     * areThereDuplicates('a', 'b', 'c', 'a') // true
+    
+! Approach:
+    ! accept the function arguments with rest operator to convert the args as array elements
+    ! convert array to object and check the value (frequnecy) of all the keys in the object
+    ! return true if the frequnecy is mor than 1
 */
 
 const objectCreator = (arr) => {
