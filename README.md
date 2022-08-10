@@ -8,3 +8,6 @@ Its a collection of topic wise DSA problems  along with theirs answers to get st
 - Multiple Pointers
 - Sliding Window
 - Divide and Conquer
+
+## Support:
+<p><a href="https://www.buymeacoffee.com/shahbazkhan"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="shahbazkhan" /></a></p><br><br>
