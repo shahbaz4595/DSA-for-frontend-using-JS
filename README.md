@@ -5,11 +5,11 @@ Its a collection of topic wise DSA problems  along with theirs answers to get st
 
 ## Topics covered
 - Frequency Counter
-  |_ Anagram
-  |_ Same Frequency Check
-  |_ Duplicate Check
-  |_ Unique values
-  |_ Square Value Check
+    - Anagram
+    - Same Frequency Check
+    - Duplicate Check
+    - Unique values
+    - Square Value Check
 - Multiple Pointers
   |_ Pair Sum
   |_ Unique Values
