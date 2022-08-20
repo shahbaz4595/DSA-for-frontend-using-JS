@@ -14,12 +14,12 @@
     * minSubArrayLen([4, 3, 3, 8, 1, 2, 3], 11) // 2
     * minSubArrayLen([1,4,16,22,5,7,8,9,10],95) // 0
 
-Approach:
-    set the start and end of the window, initial total as 0 and minLength as Infinity
-    run a loop while start of the window is less than the length of the array
-    if current window doesn't add up to the given sum then move the window to right
-    if current window adds up to at least the sum given then we can shrink the window 
-    if current total is less than required total but we reach the end, break the loop or else we'll be in an infinite loop 
+! Approach:
+    ! set the start and end of the window, initial total as 0 and minLength as Infinity
+    ! run a loop while start of the window is less than the length of the array
+    ! if current window doesn't add up to the given sum then move the window to right
+    ! if current window adds up to at least the sum given then we can shrink the window 
+    ! if current total is less than required total but we reach the end, break the loop or else we'll be in an infinite loop 
 */
 
 const minSubArrayLen = (arr, num) => {
