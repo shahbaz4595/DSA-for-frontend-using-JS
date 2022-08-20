@@ -11,22 +11,22 @@ Its a collection of topic wise DSA problems  along with theirs answers to get st
     - Unique values
     - Square Value Check
 - Multiple Pointers
-  |_ Pair Sum
-  |_ Unique Values
-  |_ Duplicate Check
-  |_ Average Pair
-  |_ Subsequence Check
+    - Pair Sum
+    - Unique Values
+    - Duplicate Check
+    - Average Pair
+    - Subsequence Check
 - Sliding Window
-  |_ Maximum Sub Array Sum
-  |_ Minnimum Sub Array Sum
-  |_ Minnimum Sub Array length
-  |_ Longest Subsring
+    - Maximum Sub Array Sum
+    - Minnimum Sub Array Sum
+    - Minnimum Sub Array length
+    - Longest Subsring
 - Divide and Conquer
-  |_ Search Number in Array 
+    - Search Number in Array 
 - Recursion
-  |_ Countdown
-  |_ Sum Range
-  |_ Factorial
+    - Countdown
+    - Sum Range
+    - Factorial
 
 ## Support:
 <p><a href="https://www.buymeacoffee.com/shahbazkhan"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="shahbazkhan" /></a></p><br><br>
