@@ -4,6 +4,8 @@ This repository is created and maintained by [Shahbaz Khan](https://www.shahbazk
 Its a collection of topic wise DSA problems  along with theirs answers to get started with Data Structure and Algorithms in JavaScript.
 
 ## Topics covered
+
+### Problem Solving and Algorithms
 - Frequency Counter
     - Anagram
     - Same Frequency Check
