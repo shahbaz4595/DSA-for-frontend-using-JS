@@ -33,5 +33,3 @@ const fib_2 = num => {
     helper(num);
     return fibonacci[fibonacci.length - 1];
 }
-
-console.log(fib_1(4))

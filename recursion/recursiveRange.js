@@ -5,7 +5,7 @@
 
 * Sample Inputs:
     *  recursiveRange(6) // 21
-    * recursiveRange(10) // 55 
+    *  recursiveRange(10) // 55 
 */
 
 const recursiveRange = num => {
