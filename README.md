@@ -38,6 +38,11 @@ Its a collection of topic wise DSA problems  along with theirs answers to get st
     - Palindrome
     - Array Some
     - Array Flat
+    - Caplitalize First Letter of the Strings in an Array
+    - Nested Even Number Sum
+    - Capitalize Strings in an Array
+    - Stringify Numbers
+    - Collect Strings
 
 ## Support:
 <p><a href="https://www.buymeacoffee.com/shahbazkhan"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="shahbazkhan" /></a></p><br><br>
