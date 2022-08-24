@@ -4,11 +4,11 @@
     ? callback function and returns -1 if none of the values satisfies the callback function.
 
 * Sample Inputs:
-    * console.log(find([2, 4, 6, 8], item => item %2 !== 0)); // -1
-    * console.log(find([2, 4, 6, 8, 9], item => item %2 !== 0)); // 4
+    * console.log(findIndex([2, 4, 6, 8], item => item %2 !== 0)); // -1
+    * console.log(findIndex([2, 4, 6, 8, 9], item => item %2 !== 0)); // 4
 */
 
-const find = (arr, callbackFn) => {
+const findIndex = (arr, callbackFn) => {
     if (arr.length === 0) return -1;
     for (let i = 0; i < arr.length; i++) {
         if(callbackFn(arr[i])) i;
