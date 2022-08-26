@@ -1,9 +1,9 @@
 /*
-? Question:
-    ? Collect all the odd values in an array
+Question:
+    Collect all the odd values in an array
 
-* Sample Input:
-    * console.log(oddValuesInArray([1,2,3,4,5,6])) // [1, 3, 5]
+Sample Input:
+    console.log(oddValuesInArray([1,2,3,4,5,6])) // [1, 3, 5]
 */
 
 // Approach 1: Using helper method recursion 

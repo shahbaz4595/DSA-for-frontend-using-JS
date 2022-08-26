@@ -1,9 +1,9 @@
 /*
-? Question:
-    ? Write a recursive function called nestedEvenSum. 
-    ? Return the sum of all even numbers in an object which may contain nested objects.
+Question:
+    Write a recursive function called nestedEvenSum. 
+    Return the sum of all even numbers in an object which may contain nested objects.
 
-* Sample Inputs:
+Sample Inputs:
     var obj1 = {
     outer: 2,
     obj: {

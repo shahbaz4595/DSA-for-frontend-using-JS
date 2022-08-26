@@ -1,10 +1,10 @@
 /*
-? Question:
-    ? Write a recursive function called reverse which accepts a string and returns a new string in reverse.
+Question:
+    Write a recursive function called reverse which accepts a string and returns a new string in reverse.
 
-* Sample Inputs:
-    * reverse('awesome') // 'emosewa'
-    * reverse('rithmschool') // 'loohcsmhtir'
+Sample Inputs:
+    reverse('awesome') // 'emosewa'
+    reverse('rithmschool') // 'loohcsmhtir'
 */
 
 // Approach 1: Using Substring

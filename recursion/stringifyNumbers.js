@@ -1,9 +1,9 @@
 /*
-? Question:
-    ? Write a function called stringifyNumbers which takes in an object and finds all of the values 
-    ? which are numbers and converts them to strings. Recursion would be a great way to solve this!
+Question:
+    Write a function called stringifyNumbers which takes in an object and finds all of the values 
+    which are numbers and converts them to strings. Recursion would be a great way to solve this!
 
-* Sample Input:
+Sample Input:
     let obj = {
     num: 1,
     test: [],
@@ -27,7 +27,7 @@ stringifyNumbers(obj)
             random: "66"
         }
     }
-}
+} 
 */
 
 const stringifyNumbers = obj => {

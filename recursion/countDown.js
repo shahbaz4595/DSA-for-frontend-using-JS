@@ -1,8 +1,8 @@
 /*
-? Question:
-    ? Write a countDown function to print numbers from a specified range till 1 and print “All done”
+Question:
+    Write a countDown function to print numbers from a specified range till 1 and print “All done”
 
-* Sample Input:
+Sample Input:
     countDown(5)    5
                     4
                     3

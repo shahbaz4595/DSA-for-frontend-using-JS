@@ -1,10 +1,10 @@
 /*
-? Question: 
-    ? Write a recursive function called capitalizeFirst. Given an array of strings, capitalize the 
-    ? first letter of each string in the array.
+Question: 
+    Write a recursive function called capitalizeFirst. Given an array of strings, capitalize the 
+    first letter of each string in the array.
 
-* Sample Inputs:
-    * capitalizeFirst(['car','taco','banana']); // ['Car','Taco','Banana']
+Sample Inputs:
+    capitalizeFirst(['car','taco','banana']); // ['Car','Taco','Banana']
 */
 
 const capitalizeFirst = arr => {

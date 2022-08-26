@@ -1,19 +1,14 @@
 /*
-? Question: 
-    ? Write a function called sameFrequency. Given two positive integers, 
-    ? find out if the two numbers have the same frequency of digits.
-    ? Your solution MUST have the following complexities: Time: O(N)
+Question: 
+    Write a function called sameFrequency. Given two positive integers, 
+    find out if the two numbers have the same frequency of digits.
+    Your solution MUST have the following complexities: Time: O(N)
 
-* Sample Input:
-    * sameFrequency(182,281) // true
-    * sameFrequency(34,14) // false
-    * sameFrequency(3589578, 5879385) // true
-    * sameFrequency(22,222) // false
-
-!  Approach:
-    ! Convert the two number in array containing the digits as element.
-    ! Convert the arrays to objects by adding them as key and its occurrence as the value
-    ! Check if all the keys of first object is present in the second one and the value is same
+Sample Input:
+    sameFrequency(182,281) // true
+    sameFrequency(34,14) // false
+    sameFrequency(3589578, 5879385) // true
+    sameFrequency(22,222) // false
 */
 
 const objectCreator = (arr) => {

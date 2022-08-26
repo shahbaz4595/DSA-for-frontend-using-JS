@@ -1,9 +1,9 @@
 /*
-? Question: 
-    ? Write a function that calculates the sum of numbers upto n.
+Question: 
+    Write a function that calculates the sum of numbers upto n.
 
-* Sample Input:
-    * sumRange(5) // 15
+Sample Input:
+    sumRange(5) // 15
 */
 
 const sumRange = num => {
