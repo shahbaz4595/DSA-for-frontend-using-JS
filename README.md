@@ -3,29 +3,27 @@
 This repository is created and maintained by [Shahbaz Khan](https://www.shahbazkhan.in) for education purpose.
 Its a collection of topic wise DSA problems  along with theirs answers to get started with Data Structure and Algorithms in JavaScript.
 
-## Topics covered
-
-### Problem Solving and Algorithms
-- Frequency Counter
+## Problem Solving and Algorithms
+### Frequency Counter
     - Anagram
     - Same Frequency Check
     - Duplicate Check
     - Unique values
     - Square Value Check
-- Multiple Pointers
+### Multiple Pointers
     - Pair Sum
     - Unique Values
     - Duplicate Check
     - Average Pair
     - Subsequence Check
-- Sliding Window
+### Sliding Window
     - Maximum Sub Array Sum
     - Minnimum Sub Array Sum
     - Minnimum Sub Array length
     - Longest Subsring
-- Divide and Conquer
+### Divide and Conquer
     - Search Number in Array 
-- Recursion
+### Recursion
     - Countdown
     - Sum Range
     - Factorial
@@ -43,7 +41,7 @@ Its a collection of topic wise DSA problems  along with theirs answers to get st
     - Capitalize Strings in an Array
     - Stringify Numbers
     - Collect Strings
-- Searching
+### Searching
     - Linear Search
         - indexOf
         - includes
@@ -53,10 +51,12 @@ Its a collection of topic wise DSA problems  along with theirs answers to get st
         - Sorted array search
     - Naive String Search
         - Substring Count
-- Sorting
+### Sorting
     - Bubble Sort
     - Selection Sort
     - Insertion Sort
 
+### Miscellaneous
+    - Binary Agents
 ## Support:
 <p><a href="https://www.buymeacoffee.com/shahbazkhan"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="shahbazkhan" /></a></p><br><br>
